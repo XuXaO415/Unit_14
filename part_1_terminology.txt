@@ -9,9 +9,10 @@ Uniform Resource Locator
 
 What is DNS?
 Domain Name System, i.e. acts like the phone book for the web.
+This system converts URLs into ip addresses.
 
 What is a query string?
-A query string aka query search is the search property of a URL
+A query string allows you to pass key values pairs into a URL.
 
 What are two HTTP verbs and how are they different?
 1) Get - establishes a client side request
@@ -20,6 +21,11 @@ What are two HTTP verbs and how are they different?
 What is an HTTP request?
 HTTP defines a set of request [methods] that indicate a set of desired instructions/actions
 that will be performed for a given resource.
+In other words, a HTTP request is a request sent by a client that triggers
+an action from the a server.
+
+What is an HTTP response?
+An HTTP response is the answer from the server.
 
 
 What is an HTTP header? Give a couple examples of request and response headers you have seen.
@@ -29,9 +35,6 @@ A few examples of headers include:
 -Request/response contains info about URL
 -Contains info on hostname you are asking for, i.e, developer.mozilla.org, reddit.com, google.com.
 -Also contains info such as, language, date/time, connection, etc.
-
-
-What is an HTTP response?
 
 
 
