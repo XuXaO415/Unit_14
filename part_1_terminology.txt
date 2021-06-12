@@ -11,12 +11,29 @@ What is DNS?
 Domain Name System, i.e. acts like the phone book for the web.
 
 What is a query string?
+A query string aka query search is the search property of a URL
 
 What are two HTTP verbs and how are they different?
-1) Get
-2) Post
+1) Get - establishes a client side request
+2) Post - establishes a request and passes info to the server
 
 What is an HTTP request?
-What is an HTTP response?
+HTTP defines a set of request [methods] that indicate a set of desired instructions/actions
+that will be performed for a given resource.
+
+
 What is an HTTP header? Give a couple examples of request and response headers you have seen.
+A HTTP header is not mandatory but depends on several factors. This may depend on the website, the server you are requesting and
+the specifics of what you are looking for.
+A few examples of headers include:
+-Request/response contains info about URL
+-Contains info on hostname you are asking for, i.e, developer.mozilla.org, reddit.com, google.com.
+-Also contains info such as, language, date/time, connection, etc.
+
+
+What is an HTTP response?
+
+
+
+
 What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
