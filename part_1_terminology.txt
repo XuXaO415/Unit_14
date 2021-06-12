@@ -1,0 +1,22 @@
+Part One: Solidify Terminology
+
+What is HTTP?
+Hypertext Transfer Protocol --is the foundation of the web. 
+HTTP is used to load and transfer info between networked devices.
+
+What is a URL?
+Uniform Resource Locator
+
+What is DNS?
+Domain Name System, i.e. acts like the phone book for the web.
+
+What is a query string?
+
+What are two HTTP verbs and how are they different?
+1) Get
+2) Post
+
+What is an HTTP request?
+What is an HTTP response?
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
