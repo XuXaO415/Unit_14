@@ -4,19 +4,26 @@ What is HTTP?
 Hypertext Transfer Protocol --is the foundation of the web. 
 HTTP is used to load and transfer info between networked devices.
 
+
 What is a URL?
 Uniform Resource Locator
+URLs are web addresses for some web pages.
+
 
 What is DNS?
 Domain Name System, i.e. acts like the phone book for the web.
 This system converts URLs into ip addresses.
 
+
 What is a query string?
 A query string allows you to pass key values pairs into a URL.
+Example: ?key1=value1&key2=value2...
+
 
 What are two HTTP verbs and how are they different?
-1) Get - establishes a client side request
-2) Post - establishes a request and passes info to the server
+1) Get - establishes a client side request that consist data.
+2) Post - establishes a request and passes info/data to the server
+
 
 What is an HTTP request?
 HTTP defines a set of request [methods] that indicate a set of desired instructions/actions
@@ -24,19 +31,27 @@ that will be performed for a given resource.
 In other words, a HTTP request is a request sent by a client that triggers
 an action from the a server.
 
+
 What is an HTTP response?
-An HTTP response is the answer from the server.
+An HTTP response is a response from a server to a client which follows
+the HTTP protocol.
+Basically, an HTTP response is the response given back from the server (called status line) that includes info such as,
+protocol version, status codes and status texts.
 
 
 What is an HTTP header? Give a couple examples of request and response headers you have seen.
 A HTTP header is not mandatory but depends on several factors. This may depend on the website, the server you are requesting and
 the specifics of what you are looking for.
 A few examples of headers include:
--Request/response contains info about URL
+-Headers provide additional such as:
+-Request/response that contains info about URL.
 -Contains info on hostname you are asking for, i.e, developer.mozilla.org, reddit.com, google.com.
--Also contains info such as, language, date/time, connection, etc.
-
-
-
+-Also contains info such as, language, date/time, cache, connection, etc.
+//https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
 
 What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+Your browser “resolves” the name into an IP address using DNS
+Your browser makes a request to that IP address, including headers (info about browser, any previous cookies, and other things)
+The server sends a response (typically, HTML, with a status code (200 if it was successful)
+The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
+The browser makes separate HTTP requests for those resources and receives response from the server for each
